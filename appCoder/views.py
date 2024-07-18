@@ -5,13 +5,13 @@ def inicio(request):
     return render(request, "appCoder/inicio.html")
 
 def cursos(request):
-    return HttpResponse("Vista de los cursos")
+    return render(request, "appCoder/cursos.html")
 
 def estudiantes(request):
-    return HttpResponse("Vista de los estudiantes")
+    return render("appCoder/estudiantes.html")
 
 def profesores(request):
-    return HttpResponse("Vista de los profesores")
+    return render("appCoder/profesores.html")
 
 def entregables(request):
-    return HttpResponse("Vista de los entregables")
+    return render("appCoder/entregables.html")
