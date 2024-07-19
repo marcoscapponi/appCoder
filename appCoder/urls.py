@@ -5,9 +5,9 @@ from appCoder.views import *
 
 
 urlpatterns = [
-    path('', inicio),
-    path('pagina-cursos', cursos),
-    path('pagina-estudiantes', estudiantes),
-    path('pagina-profesores', profesores),
-    path('pagina-entregables', entregables),
+    path('', inicio, name="inicio"),
+    path('cursos', cursos, name="cursos"),
+    path('estudiantes', estudiantes, name="estudiantes"),
+    path('profesores', profesores, name="profesores"),
+    path('entregables', entregables, name="entregables"),
 ]

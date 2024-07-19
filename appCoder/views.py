@@ -8,10 +8,10 @@ def cursos(request):
     return render(request, "appCoder/cursos.html")
 
 def estudiantes(request):
-    return render("appCoder/estudiantes.html")
+    return render(request, "appCoder/estudiantes.html")
 
 def profesores(request):
-    return render("appCoder/profesores.html")
+    return render(request, "appCoder/profesores.html")
 
 def entregables(request):
-    return render("appCoder/entregables.html")
+    return render(request, "appCoder/entregables.html")
